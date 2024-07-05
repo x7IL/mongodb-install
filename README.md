@@ -1,6 +1,3 @@
-### `README.md`
-
-```
 # MongoDB Installation Script
 
 This script installs MongoDB on an Ubuntu system, configures it to allow remote connections, and holds the package versions to prevent automatic updates.
@@ -8,12 +5,12 @@ This script installs MongoDB on an Ubuntu system, configures it to allow remote 
 ## Usage
 
 1. Make the script executable:
-    ```bash
+    ```
     chmod +x install.sh
     ```
 
 2. Run the script with superuser privileges:
-    ```bash
+    ```
     sudo ./install.sh
     ```
 
