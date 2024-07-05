@@ -3,15 +3,11 @@
 This script installs MongoDB on an Ubuntu system, configures it to allow remote connections, and holds the package versions to prevent automatic updates.
 
 ## Usage
+## Usage
 
-1. Make the script executable:
+1. Run the following command in your terminal to install curl (if not already installed), download the `install.sh` script, make it executable, and execute it:
     ```
-    chmod +x install.sh
-    ```
-
-2. Run the script with superuser privileges:
-    ```
-    sudo ./install.sh
+    sudo apt-get install -y curl && curl -o install.sh https://raw.githubusercontent.com/x7IL/mongodb-install/main/install.sh && chmod +x install.sh && sudo ./install.sh
     ```
 
 ## Script Explanation
